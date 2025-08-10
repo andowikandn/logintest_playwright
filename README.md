@@ -10,7 +10,8 @@ Precondition should have to:
 - pip install pytest-html
 
 Makesure all already installed:
-pip list
+- pip list
 
-pip3 for MacOS
-pip for Windows
+
+- pip3 for MacOS
+- pip for Windows
