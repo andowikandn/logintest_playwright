@@ -12,6 +12,3 @@ Precondition should have to:
 Makesure all already installed:
 - pip list
 
-
-- pip3 for MacOS
-- pip for Windows
