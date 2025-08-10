@@ -12,3 +12,7 @@ Precondition should have to:
 Makesure all already installed:
 - pip list
 
+How to run:
+- pytest -m negativetest --html=reportnegativetest.html (run negativetest)
+- pytest -m positivetest --html=reportpositivetest.html (run positivetest)
+- pytest -v test_herokuappw.py --html=reportautomation.html (end to end test)
