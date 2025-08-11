@@ -9,9 +9,9 @@ Create folder project in vscode
 
 Create environment:
 - python -m venv nama_env
-- nama_env\Scripts\activate -> Windows
-- source nama_env/bin/activate -> MacOS
-- deactivate -> disable
+- nama_env\Scripts\activate (Windows)
+- source nama_env/bin/activate (MacOS)
+- deactivate (Disable)
 
 Then to do:
 - pip install playwright
@@ -23,6 +23,6 @@ Makesure all already installed:
 - pip list
 
 How to run:
-- pytest -m negativetest --html=reportnegativetest.html -> run negativetestcase
-- pytest -m positivetest --html=reportpositivetest.html -> run positivetestcase
-- pytest -v test_herokuappw.py --html=reportautomation.html -> run end to end test
+- pytest -m negativetest --html=reportnegativetest.html
+- pytest -m positivetest --html=reportpositivetest.html
+- pytest -v test_herokuappw.py --html=reportautomation.html
