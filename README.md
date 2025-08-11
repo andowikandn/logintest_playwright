@@ -2,8 +2,18 @@
 
 Basic testing to login testing
 
-Precondition should have to:
-- pip install python
+First of all:
+- Download python https://www.python.org/downloads then install
+
+Create folder project in vscode
+
+Create environment:
+- python -m venv nama_env
+- nama_env\Scripts\activate -> Windows
+- source nama_env/bin/activate -> MacOS
+- deactivate -> disable
+
+Then to do:
 - pip install playwright
 - pip playwright install
 - pip install pytest
@@ -13,6 +23,6 @@ Makesure all already installed:
 - pip list
 
 How to run:
-- pytest -m negativetest --html=reportnegativetest.html (run negativetest)
-- pytest -m positivetest --html=reportpositivetest.html (run positivetest)
-- pytest -v test_herokuappw.py --html=reportautomation.html (end to end test)
+- pytest -m negativetest --html=reportnegativetest.html -> run negativetestcase
+- pytest -m positivetest --html=reportpositivetest.html -> run positivetestcase
+- pytest -v test_herokuappw.py --html=reportautomation.html -> run end to end test
