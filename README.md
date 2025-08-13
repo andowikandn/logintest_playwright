@@ -23,6 +23,6 @@ Makesure all already installed:
 - pip list
 
 How to run:
-- pytest -m negativetest --html=reportnegativetest.html
-- pytest -m positivetest --html=reportpositivetest.html
+- pytest -m negativetest --html=reportnegativecase.html
+- pytest -m positivetest --html=reportpositivecase.html
 - pytest -v test_herokuappw.py --html=reportautomation.html
