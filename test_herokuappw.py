@@ -14,8 +14,7 @@ def page():
 input_credentialsX = [('',''),
                      ('tomsmith',''),
                      ('','SuperSecretPassword!'),
-                     ('typo','typo')
-                    ]
+                     ('typo','typo')]
 
 input_credentialsY = [('tomsmith','SuperSecretPassword!')]
 
